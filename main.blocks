@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id=";$^g@(3gep:1@-r:?F3U">mySprite</variable><variable type="KIND_SpriteKind" id="(uI%eLYC(8zSFPRRRoPc">Player</variable><variable type="KIND_SpriteKind" id="D(z)0WYEhBx!,L`/6dZh">Projectile</variable><variable type="KIND_SpriteKind" id="XWX:k2*f4PRMb)(I2$J1">Food</variable><variable type="KIND_SpriteKind" id="z%JpYFWlhx1.sab)|6rW">Enemy</variable></variables><block type="pxt-on-start" id=")x0U1h|gU/[Km88~ddLl" x="30" y="30"><statement name="HANDLER"><block type="variables_set" id="|o(EMfwQb_}b6QpdlEt?"><field name="VAR" id=";$^g@(3gep:1@-r:?F3U">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="Mdn.mPty/GdpFfoM|0Gt"><value name="img"><shadow type="screen_image_picker" id="w[ub{.,Vli:iZ,Nalc+L"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . 3 . . . . 3 . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . 3 . . 3 . . . . . . 
+. . . . . . 3 3 . 3 . . . . . . 
+. . . . . . . . 3 3 . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image1"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="$3(bhC%]a7NZ=Po/Hxei"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="6m9$nkO[ANm9JaEJqgsz"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="NXv]^MB(Lip;lm^Q]gNx"><field name="VAR" id=";$^g@(3gep:1@-r:?F3U">mySprite</field></block></value></block></next></block></statement></block></xml>
